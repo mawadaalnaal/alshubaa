@@ -6,7 +6,7 @@ const imagesObject = {
 // إضافة 85 صورة إلى الخريطة تلقائيًا باستخدام حلقة for
 for (let i = 1; i <= 25; i++) {
     const imageName = `a${i}`; // تسمية الصورة (image1, image2, ...)
-    const imagePath = `الحفل الأول/a${i}.jpg`; // مسار الصورة النسبي داخل مجلد الصور
+    const imagePath = `الحفل الأول/a${i}.JPG`; // مسار الصورة النسبي داخل مجلد الصور
     imagesObject.imagesMap.set(imageName, imagePath); // إضافة الصورة إلى الخريطة
 }
 
